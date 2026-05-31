@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zoiper5
+Comment=VoIP Softphone
+Exec=/usr/lib/zoiper/zoiper
+Terminal=false
+Icon=
+Type=Application

@@ -1,0 +1,40 @@
+theme = "kanagawa"
+
+[editor.file-picker]
+
+[editor]
+auto-format = true
+bufferline = "always"
+scrolloff = 999
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+character = "|"
+skip-levels = 1
+
+[keys.normal]
+F5 = ':sh ~/.local/bin/cargo-run-term.sh'
+"A-l" = ["extend_to_line_bounds", "trim_selections"]
+"C-l" = ':sh cargo clippy --all-targets --all-features -- -D warnings'
+"C-f" = ':sh cargo fmt'
+"A-s" = "@A<space><esc>"
+
+"A-right" = ["select_mode", "move_next_word_start"]
+"A-left" = ["select_mode", "move_prev_word_start"]
+
+[keys.insert]
+f = { j = "normal_mode" }
+j = { f = "normal_mode" }
+
+[keys.select]
+"A-right" = "move_next_word_start"
+"A-left" = "move_prev_word_start"

@@ -1,0 +1,294 @@
+[
+  {
+    "name": "top",
+    "output": "All",
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "homogeneous": true,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "padding-horizontal": 0,
+    "padding-vertical": 0,
+    "spacing": 2,
+    "controls": "right",
+    "items-padding": 0,
+    "css-name": "panel-top",
+    "icons": "light",
+    "modules-left": [
+      "button-launcher",
+      "hyprland-workspaces"
+    ],
+    "modules-center": [
+      "clock",
+      "openweather"
+    ],
+    "modules-right": [
+      "executor-cpuav",
+      "executor-cpubar",
+      "hyprland-submap",
+      "scratchpad",
+      "tray",
+      "button-help",
+      "button-volume",
+      "button-clipman"
+    ],
+    "sway-taskbar": {},
+    "controls-settings": {
+      "alignment": "right",
+      "components": [
+        "brightness",
+        "volume",
+        "processes",
+        "readme"
+      ],
+      "commands": {
+        "battery": "",
+        "net": "nm-connection-editor",
+        "bluetooth": "blueman-manager"
+      },
+      "custom-items": [
+        {
+          "name": "Wallpapers",
+          "icon": "azote",
+          "cmd": "azote"
+        },
+        {
+          "name": "Look settings",
+          "icon": "nwg-look",
+          "cmd": "nwg-look"
+        },
+        {
+          "name": "Displays settings",
+          "icon": "nwg-displays",
+          "cmd": "nwg-displays"
+        },
+        {
+          "name": "Panel settings",
+          "icon": "nwg-panel",
+          "cmd": "nwg-panel-config"
+        },
+        {
+          "name": "Shell settings",
+          "icon": "nwg-shell-config",
+          "cmd": "nwg-shell-config"
+        }
+      ],
+      "menu": {
+        "name": "Exit",
+        "icon": "system-shutdown-symbolic",
+        "items": [
+          {
+            "name": "Lock screen",
+            "cmd": "nwg-lock"
+          },
+          {
+            "name": "Exit compositor",
+            "cmd": "nwg-dialog -p exit-hyprland -c \"hyprctl dispatch exit\""
+          },
+          {
+            "name": "Reboot",
+            "cmd": "nwg-dialog -p reboot -c \"systemctl reboot\""
+          },
+          {
+            "name": "Shutdown",
+            "cmd": "nwg-dialog -p poweroff -c \"systemctl -i poweroff\""
+          }
+        ]
+      },
+      "show-values": false,
+      "interval": 1,
+      "icon-size": 18,
+      "hover-opens": false,
+      "leave-closes": true,
+      "click-closes": true,
+      "css-name": "controls-window",
+      "net-interface": "wlo1",
+      "system-shutdown-symbolic": "system-shutdown",
+      "output-switcher": true,
+      "window-width": 320,
+      "window-margin": 6,
+      "battery-low-level": 0,
+      "backlight-device": "",
+      "backlight-controller": "brightnessctl",
+      "root-css-name": "controls-overview",
+      "window-margin-horizontal": 4,
+      "window-margin-vertical": 4,
+      "angle": 0.0,
+      "show-brightness": false,
+      "show-volume": true,
+      "show-battery": false,
+      "per-app-volume": false,
+      "battery-low-interval": 3,
+      "processes-label": "Processes",
+      "readme-label": "README"
+    },
+    "playerctl": {},
+    "clock": {
+      "format": "%a, %d. %b  %H:%M:%S",
+      "interval": 1,
+      "on-right-click": "",
+      "tooltip-text": "",
+      "on-left-click": "",
+      "on-middle-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "css-name": "clock"
+    },
+    "width": "auto",
+    "sway-workspaces": {},
+    "hyprland-workspaces": {
+      "num-ws": 10,
+      "show-icon": true,
+      "image-size": 16,
+      "show-name": true,
+      "name-length": 20,
+      "show-empty": true,
+      "mark-content": true,
+      "show-names": true,
+      "mark-floating": true,
+      "angle": 0.0,
+      "mark-xwayland": true
+    },
+    "menu-start": "off",
+    "menu-start-settings": {},
+    "executor-cpuav": {
+      "script": "gopsuinfo -i a",
+      "tooltip-text": "average CPU load",
+      "on-left-click": "nwg-processes",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "root-css-name": "",
+      "css-name": "",
+      "icon-placement": "right",
+      "icon-size": 16,
+      "interval": 3
+    },
+    "executor-cpubar": {
+      "script": "gopsuinfo -c g",
+      "tooltip-text": "",
+      "on-left-click": "",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "root-css-name": "",
+      "css-name": "",
+      "icon-placement": "left",
+      "icon-size": 16,
+      "interval": 3
+    },
+    "dwl-tags": {},
+    "tray": {
+      "icon-size": 16,
+      "root-css-name": "tray",
+      "inner-css-name": "inner-tray",
+      "smooth-scrolling-threshold": 0
+    },
+    "swaync": {
+      "tooltip-text": "Notifications",
+      "on-left-click": "swaync-client -t",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "root-css-name": "root-executor",
+      "css-name": "executor",
+      "icon-placement": "left",
+      "icon-size": 16,
+      "interval": 1,
+      "always-show-icon": true
+    },
+    "exclusive-zone": true,
+    "openweather": {
+      "module-id": "1752427421.1661747",
+      "appid": "896e0ee0a3ace190db7cf34de9576ec9",
+      "weatherbit-api-key": "",
+      "lat": 47.0105,
+      "long": 28.8638,
+      "lang": "en",
+      "units": "metric",
+      "interval": 1800,
+      "loc-name": "Chi\u0219in\u0103u",
+      "weather-icons": "color",
+      "on-right-click": "",
+      "on-middle-click": "",
+      "on-scroll": "",
+      "icon-placement": "start",
+      "icon-size": 24,
+      "css-name": "weather",
+      "show-name": false,
+      "angle": 0.0,
+      "ow-popup-icons": "light",
+      "popup-header-icon-size": 48,
+      "popup-icon-size": 24,
+      "popup-text-size": "medium",
+      "popup-css-name": "weather-forecast",
+      "popup-placement": "right",
+      "popup-margin-horizontal": 0,
+      "popup-margin-top": 0,
+      "popup-margin-bottom": 0,
+      "show-humidity": true,
+      "show-wind": true,
+      "show-pressure": true,
+      "show-cloudiness": true,
+      "show-visibility": true,
+      "show-pop": true,
+      "show-volume": true
+    },
+    "brightness-slider": {},
+    "button-launcher": {
+      "command": "nwg-drawer",
+      "icon": "grid",
+      "label": "",
+      "label-position": "right",
+      "tooltip": "Application drawer [Alt]+F1",
+      "css-name": "button-custom",
+      "icon-size": 16
+    },
+    "button-help": {
+      "command": "nwg-shell-help",
+      "icon": "help-about",
+      "label": "",
+      "label-position": "right",
+      "tooltip": "Show/hide help [S]+F1",
+      "css-name": "button-custom",
+      "icon-size": 16
+    },
+    "button-clipman": {
+      "command": "nwg-clipman",
+      "icon": "nwg-clipman",
+      "label": "",
+      "label-position": "right",
+      "tooltip": "Clipboard history [Alt]+c",
+      "css-name": "button-custom",
+      "icon-size": 16
+    },
+    "run-if-output-exist": [],
+    "run-if-output-absent": [],
+    "monitor": "",
+    "width-as-percentage": false,
+    "sigrt": 64,
+    "use-sigrt": false,
+    "start-hidden": false,
+    "scratchpad": {},
+    "sway-mode": {},
+    "hyprland-taskbar": {},
+    "hyprland-submap": {},
+    "keyboard-layout": {},
+    "niri-taskbar": {},
+    "random-wallpaper": {},
+    "pinned": {},
+    "button-volume": {
+      "command": "pavucontrol",
+      "icon": "multimedia-volume-control",
+      "label": "",
+      "label-position": "right",
+      "tooltip": "audio-settings",
+      "css-name": "volume-settings",
+      "icon-size": 16
+    }
+  }
+]

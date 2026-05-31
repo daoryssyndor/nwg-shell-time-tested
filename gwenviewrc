@@ -1,0 +1,33 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=/mnt/KC600/___w/cred/16.05.2026/0-02-05-270ee83f06fbbe58497c949e0b02731897e694adb74b8561b64445730ecc756d_2073cc016abf3d.jpg
+File10[$e]=$HOME/Pictures/tesy-boilers.jpg
+File2[$e]=$HOME/Downloads/Save_webP/07061300S25.jpg
+File3[$e]=$HOME/Downloads/Save_webP/010618140.jpg
+File4[$e]=$HOME/Downloads/role-minus/photo_2026-05-20_14-40-27.jpg
+File5[$e]=$HOME/Downloads/cour.png
+File6[$e]=/mnt/KC600/___w/____ALL_Price/IUTE_CREDIT/39. Garvi Roll SRLdecontari reciproce shop fee.semnat.psd
+File7[$e]=/mnt/KC600/___w/____ALL_Price/IUTE_CREDIT/08.2022/asasas.jpg
+File8[$e]=$HOME/Pictures/monitoare-moldova-1x1-90.jpg
+File9[$e]=$HOME/Pictures/rb-1-95.jpg
+Name1[$e]=0-02-05-270ee83f06fbbe58497c949e0b02731897e694adb74b8561b64445730ecc756d_2073cc016abf3d.jpg
+Name10[$e]=tesy-boilers.jpg
+Name2[$e]=07061300S25.jpg
+Name3[$e]=010618140.jpg
+Name4[$e]=photo_2026-05-20_14-40-27.jpg
+Name5[$e]=cour.png
+Name6[$e]=39. Garvi Roll SRLdecontari reciproce shop fee.semnat.psd
+Name7[$e]=asasas.jpg
+Name8[$e]=monitoare-moldova-1x1-90.jpg
+Name9[$e]=rb-1-95.jpg
+
+[SideBar]
+InformationSplitterSizes=217,258
+IsVisible ViewMode=true
+SideBarSplitterSizes=191,1077
