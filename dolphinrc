@@ -1,0 +1,21 @@
+MenuBar=Disabled
+
+[Baloo KEditCommentDialog]
+3 screens: Window-Maximized=true
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,10,19,16,47,46.416
+
+[IconsMode]
+PreviewSize=144
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[UiSettings]
+ColorScheme=BreezeDark
