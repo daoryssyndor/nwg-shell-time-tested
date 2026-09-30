@@ -77,3 +77,8 @@ __pycache__/
 *.cache
 *.bak.*
 *-backup-*
+
+# Credentials and personal application state removed from public history
+/remmina/remmina.pref
+/filezilla/filezilla.xml
+/vlc/vlc-qt-interface.conf
